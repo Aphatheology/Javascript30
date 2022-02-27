@@ -7,15 +7,15 @@ let ride = document.getElementById('ride');
 let snare = document.getElementById('snare');
 let tom = document.getElementById('tom');
 let tink = document.getElementById('tink');
-const clapAudio = new Audio('/sounds/clap.wav');
-const hihatAudio = new Audio('/sounds/hihat.wav');
-const kickAudio = new Audio('/sounds/kick.wav');
-const openhatAudio = new Audio('/sounds/openhat.wav');
-const boomAudio = new Audio('/sounds/boom.wav');
-const rideAudio = new Audio('/sounds/ride.wav');
-const snareAudio = new Audio('/sounds/snare.wav');
-const tomAudio = new Audio('/sounds/tom.wav');
-const tinkAudio = new Audio('/sounds/tink.wav');
+const clapAudio = new Audio('sounds/clap.wav');
+const hihatAudio = new Audio('sounds/hihat.wav');
+const kickAudio = new Audio('sounds/kick.wav');
+const openhatAudio = new Audio('sounds/openhat.wav');
+const boomAudio = new Audio('sounds/boom.wav');
+const rideAudio = new Audio('sounds/ride.wav');
+const snareAudio = new Audio('sounds/snare.wav');
+const tomAudio = new Audio('sounds/tom.wav');
+const tinkAudio = new Audio('sounds/tink.wav');
 
 function tinkSound() {
     tinkAudio.play();
